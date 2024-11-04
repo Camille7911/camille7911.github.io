@@ -1,9 +1,9 @@
-- First-prize Academic Scholarship, 2023.
+- Finalist Winner, 2022 U.S. College Student Mathematical Modeling Competition (global award rate 1%), Team Leader.
 
-- Freshman Academic Scholarship, 2022.
+- Meritorious Winner, 2021 U.S. College Student Mathematical Modeling Competition, Team Leader.
 
-- Excellent Graduation Project of Jiangsu Province, 2022.
+- Second Prize, 2021 National College Student Mathematical Modeling Competition, Beijing Division, Team Leader.
 
-- First-prize Enterprise Scholarship, 2021.
+- Second Prize, 2021 National College Student Digital Art Design Competition, Beijing Division, Core Member.
 
-- First-prize Academic Scholarship, 2019.
+- Third Prize, 2020 National College Student 3D Digital Innovation Competition, Beijing Division, Core Member.

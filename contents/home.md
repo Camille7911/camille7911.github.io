@@ -1,16 +1,16 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+<!-- [![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073) -->
 
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+He is currently engaged in remote sensing science research at the National Academy of Natural Disaster Prevention and Control
 
 #### Email
-sli[at]cumt.edu.cn
+zhujiahua23[at]mails.ucas.ac.cn
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+M.E., Remote Sensing Science and Technology, University of Chinese Academy of Sciences, 2023-2024.\
+B.E., Geographic Information Science, China University of Geosciences (Beijing), 2019—2023.
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+Deep learning, geographic spatiotemporal data mining, low altitude UAV remote sensing
 
