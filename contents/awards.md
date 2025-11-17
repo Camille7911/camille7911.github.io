@@ -1,3 +1,7 @@
+- 2024 Outstanding Student of the University of Chinese Academy of Sciences.
+
+- 2023 China University of Geosciences (Beijing) Second Class Scholarship (Top 10%) .
+
 - Finalist Winner, 2022 U.S. College Student Mathematical Modeling Competition (global award rate 1%), Team Leader.
 
 - Meritorious Winner, 2021 U.S. College Student Mathematical Modeling Competition, Team Leader.
