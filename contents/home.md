@@ -5,7 +5,7 @@
 Hi, I’m Jiahua Zhu. I’m currently pursuing a Master of Science at the National Institute for Natural Hazards. I hold a bachelor’s degree in Geographic Information Science
 
 #### Email
-zhujiahua818@gmail.com
+zhujiahua818@gmail.com\
 zhujiahua23@mails.ucas.ac.cn
 
 #### Education

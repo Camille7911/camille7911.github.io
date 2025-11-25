@@ -1,148 +1,112 @@
 @import "./styles.css";
 
-/* --- 学术配色方案 --- */
-:root {
-    --primary-text: #2c3e50;   /* 深蓝灰，用于标题 */
-    --body-text: #4a4a4a;      /* 深灰，用于正文，比纯黑柔和 */
-    --accent-color: #2980b9;   /* 学术蓝，用于链接和强调 */
-    --light-bg: #f8f9fa;       /* 浅灰背景，用于区分板块 */
-    --border-color: #e9ecef;
+
+:root{
+    --h-title-color:#3948d2;
 }
 
-body {
-    font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: var(--body-text);
-    line-height: 1.8; /* 增加行高，提升阅读体验 */
+.header {
+    border-bottom: solid 2px var(--bs-blue);
+    z-index: 10000;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif; /* 衬线字体，更有学术感 */
-    color: var(--primary-text);
-    font-weight: 700;
+.bg-bottom {
+    background-color: var(--h-title-color);
 }
 
-a {
-    color: var(--accent-color);
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-a:hover {
-    color: #1c5980;
-    text-decoration: underline;
-}
-
-/* --- 导航栏 --- */
-#mainNav {
-    background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#mainNav .navbar-brand {
-    font-family: 'Roboto Slab', serif;
-    color: var(--primary-text);
-    font-size: 1.5rem;
-}
-
-#mainNav .nav-link {
-    color: #666;
-    font-weight: 500;
-    font-size: 0.95rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-#mainNav .nav-link:hover, #mainNav .nav-link.active {
-    color: var(--accent-color);
-}
-
-/* --- 版块通用样式 --- */
-.academic-section {
-    padding: 4rem 0; /* 增加垂直间距 */
-}
-
-.bg-light-gray {
-    background-color: var(--light-bg);
-}
-
-.section-title {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--accent-color); /* 标题下方的短横线 */
-    display: inline-block;
-}
-
-.section-divider {
-    margin: 0;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
-}
-
-/* --- Markdown 内容样式优化 --- */
-.main-body {
-    font-size: 1.1rem;
-}
-
-.main-body h3 {
-    font-size: 1.4rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    color: #34495e;
-}
-
-.main-body ul {
-    padding-left: 1.2rem;
-}
-
-.main-body li {
-    margin-bottom: 0.8rem; /* 列表项增加间距 */
-}
-
-/* --- 针对论文列表的特殊样式 (需要在 Markdown 中配合 HTML 使用，或者默认样式) --- */
-/* 如果你的 Markdown 渲染出来是 ul li，这里的样式会让它更好看 */
-#publications-md li {
-    list-style-type: none;
+.top-section {
     position: relative;
-    padding-left: 1.5rem;
+    padding: 10rem 0;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
 }
 
-#publications-md li::before {
-    content: "•";
-    color: var(--accent-color);
-    font-weight: bold;
+.top-section h2 {
+    font-weight: 400;
+}
+
+.top-section .top-section-content {
+    position: relative;
+    z-index: 1;
+}
+
+.top-section:before {
+    content: "";
     position: absolute;
+    top: 0;
     left: 0;
-    font-size: 1.2em;
-    line-height: 1.6;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-/* 强调论文中的作者名字 (需要在 Markdown 中用 **Name** 包裹) */
-strong {
-    color: #000;
-    font-weight: 700;
+section header h2{
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    color: var(--h-title-color);
+    font-size: 2.3rem;
+    line-height: 4rem;
 }
 
-/* --- 头像 --- */
+section .main-body{
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 2.4rem;
+}
+
+
+.bg-gradient-primary-to-secondary-light {
+    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+}
+
+.bg-gradient-primary-to-secondary-gray {
+    background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
+}
+
+
+
+.on-top {
+    position: relative;
+    z-index: 10000;
+}
+
+.top-bg {
+    background-position: center;
+    background-size: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.top-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+#avatar {
+    position: relative;
+    height: 0;
+    top:min(-65px,max(-100px,calc(-1*100vw/12)));
+    max-width: 55em;
+    margin: 0 1.5rem 0 0;
+    float: right;
+    z-index: 9000;
+}
+
 #avatar img {
-    transition: transform 0.3s ease;
+    height: max(130px,min(200px,calc(100vw/6)));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-#avatar img:hover {
-    transform: scale(1.02);
-}
-
-/* --- 移动端适配 --- */
-@media (max-width: 992px) {
-    .masthead {
-        padding-top: 7rem !important;
-        text-align: center;
-    }
+@media screen and (max-width: 991px) {
     #avatar {
-        margin-bottom: 2rem;
+        margin: 0;
     }
 }
+
+
